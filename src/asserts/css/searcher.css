@@ -1,0 +1,173 @@
+.container {
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-col-lg {
+    flex: 27%;
+}
+
+.each-box {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 1rem;
+}
+
+.form1 {
+    border: 2px solid #B2F9FC;
+    border-radius: 6px;
+    padding: 10px 5px;
+}
+
+.input-box {
+    color: #1597E5;
+    font-size: 1rem;
+}
+
+.input {
+    color: #1597E5;
+    font-size: 1rem;
+    border: none;
+    width: 82%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.search-btn {
+    margin-left: auto;
+    float: right;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #555;
+    transition: all 0.3s;
+}
+
+.search-btn:hover {
+    color: #1597E5;
+    transition: all 0.3s;
+}
+
+.select-box {
+    display: inline;
+    padding: 10px 5px;
+}
+
+.select {
+    font-size: 1rem;
+    padding: 10px 12px;
+    border: 2px solid #B2F9FC;
+    border-radius: 6px;
+}
+
+.select:focus {
+    outline: none;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.result-box {
+    display: inline;
+}
+
+.result {
+    display: inline;
+    padding-right: 8px;
+    vertical-align: -webkit-baseline-middle;
+    color: #1597E5;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .three-col-lg {
+        flex: 45%;
+    }
+    .flex-end {
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:770px) {
+    .container {
+        width: 95%;
+    }
+    .input {
+        font-size: 0.9rem;
+    }
+    .select {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+    .result {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .row {
+        flex-direction: column;
+    }
+    .three-col-lg {
+        flex: 95%;
+    }
+    .flex-end {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: auto;
+    }
+}
+
+@media(max-width:690px) {
+    .container {
+        margin-top: 0.5rem;
+    }
+}
+
+@media(max-width:480px) {
+    .container {
+        width: 95%;
+    }
+    .form1 {
+        padding: 7px 5px;
+    }
+    .input-box {
+        font-size: 0.9rem;
+    }
+    .input {
+        font-size: 0.9rem;
+        width: 87%;
+    }
+    .search-btn {
+        font-size: 0.9rem;
+    }
+    .select-box {
+        padding: 7px 5px;
+    }
+    .select {
+        font-size: 0.9rem;
+        padding: 7px 12px;
+    }
+    .result {
+        font-size: 0.9rem;
+    }
+}

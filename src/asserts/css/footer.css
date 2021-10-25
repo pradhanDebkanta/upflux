@@ -1,0 +1,123 @@
+.footer-body {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-header-container {
+    display: flex;
+    align-items: center;
+    box-shadow: #B2F9FC 0px 2px 2px 0px;
+}
+
+.brand-box {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.footer-brand-name {
+    color: #1597E5;
+    padding-left: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.social-box {
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+.social-box i {
+    font-size: 1.5rem;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 3px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: #39A2DB;
+    transition: all 0.3s ease;
+}
+
+.social-box i:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.col-lg-3 {
+    flex: 27%;
+}
+
+.footer-card {
+    margin: 16px 8px 16px;
+    padding: 16px 16px 16px 24px;
+}
+
+.footer-link, .footer-link-excep {
+    display: block;
+    padding-bottom: 12px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #6B7AA1;
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover, .footer-link-excep:hover {
+    color: #1597E5;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+}
+
+.footer-link-excep:hover {
+    margin-right: 8px;
+    color: #6B7AA1;
+}
+
+.footer-card-excep {
+    margin: 16px 8px 16px;
+    padding: 16px 24px 16px 16px;
+    justify-content: flex-end;
+    margin-right: auto;
+}
+
+.footer-link-excep {
+    text-align: right;
+    color: #1597E5;
+}
+
+@media screen and (max-width: 990px) {
+    .col-lg-3 {
+        flex: 45%;
+    }
+    .footer-card-excep {
+        display: block;
+        margin-top: 0px;
+    }
+    .footer-link-excep {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 770.98px) {
+    .footer-brand-name {
+        font-size: 1.5rem;
+    }
+    .social-box i {
+        font-size: 1.1rem;
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 2px;
+    }
+    .footer-card, .footer-card-excep {
+        margin: 4px 8px 4px;
+    }
+    .footer-link, .footer-link-excep {
+        padding-bottom: 8px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .col-lg-3 {
+        flex: 45%;
+    }
+}
